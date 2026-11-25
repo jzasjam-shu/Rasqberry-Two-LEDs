@@ -77,7 +77,7 @@ def vertical_line(color=RED):
         for y in range(8):
             set_pixel(x, y, color)
         chunked_show(pixels)
-        time.sleep(0.25)
+        time.sleep(0.2)
         clear()
         x += 1
     x = 1
